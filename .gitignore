@@ -54,3 +54,7 @@ target/
 .vscode/
 .DS_Store
 .mvn/
+
+
+### Application Related ###
+/data
