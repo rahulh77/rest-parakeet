@@ -1,4 +1,4 @@
-package com.rest.parakeet.myparakeet;
+package com.rest.parakeet.pkapp;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

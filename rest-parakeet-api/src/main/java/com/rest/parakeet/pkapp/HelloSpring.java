@@ -1,4 +1,4 @@
-package com.rest.parakeet.myparakeet;
+package com.rest.parakeet.pkapp;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
