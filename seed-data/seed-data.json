@@ -1,0 +1,50 @@
+[
+    {
+      "common": "Grey Tinamou",
+      "genus": "Tinamou",
+      "species": "tao",
+      "breed_suborigin": "Amazonia"
+    },
+    {
+      "common": "Solitary Tinamou",
+      "genus": "Tinamou",
+      "species": "solitarius",
+      "breed_suborigin": "se"
+    },
+    {
+      "common": "Black Tinamou",
+      "genus": "Tinamou",
+      "species": "osgoodi",
+      "breed_suborigin": "sc Colombia, se Peru"
+    },
+    {
+      "common": "Great Tinamou",
+      "genus": "Tinamou",
+      "species": "major",
+      "breed_suborigin": "s Mexico through Amazonia"
+    },
+    {
+      "common": "White-throated Tinamou",
+      "genus": "Tinamou",
+      "species": "guttatus",
+      "breed_suborigin": "Amazonia"
+    },
+    {
+      "common": "Highland Tinamou",
+      "genus": "Nothocercus",
+      "species": "bonapartei",
+      "breed_suborigin": "Costa Rica to Peru"
+    },
+    {
+      "common": "Tawny-breasted Tinamou",
+      "genus": "Nothocercus",
+      "species": "julius",
+      "breed_suborigin": "c Colombia and w Venezuela to sc Peru"
+    },
+    {
+      "common": "Hooded Tinamou",
+      "genus": "Nothocercus",
+      "species": "nigrocapillus",
+      "breed_suborigin": "Peru, Bolivia"
+    }
+  ]
