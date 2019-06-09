@@ -10,6 +10,8 @@ docker-compose up -d
 docker exec -it rest-parakeet_mongodb_1 bash
 ```
 
+<https://stackoverflow.com/questions/42912755/how-to-create-a-db-for-mongodb-container-on-start-up/42917632#42917632>
+
 ```bash
 mongo
 # or
