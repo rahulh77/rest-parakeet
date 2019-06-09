@@ -20,9 +20,20 @@ services:
     depends_on:
      - mongodb
     environment:
-      - MONGO_HOST=mongodb
-      - MONGO_PORT=27017
+      # WAIT_HOSTS: mongodb:27017
+      MONGO_HOST: mongodb
+      MONGO_PORT: 27017
     volumes:
       - ./seed-data:/seed-data
     command:
-      bash -c "sleep 60 && mongoimport --host mongodb --port 27017 --db test --collection bird --mode upsert --type json --file /seed-data/seed-data.json --jsonArray"
+      bash -c "sleep 30 && mongoimport --host mongodb --port 27017 --db test --collection bird --mode upsert --type json --file /seed-data/seed-data.json --jsonArray"
+  parakeet-api:
+    build:
+      context: ./rest-parakeet-api
+      dockerfile: dockerfile.rest-parakeet.yml
+    depends_on: 
+      - mongo-seed
+    ports: 
+      - 8080:8080
+
+    

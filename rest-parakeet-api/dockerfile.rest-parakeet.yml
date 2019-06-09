@@ -1,0 +1,9 @@
+FROM openjdk:8-jre-slim
+
+EXPOSE 8080
+
+ADD target/myparakeet*.jar myparakeet.jar
+
+COPY ./entrypoint.sh ./entrypoint.sh
+RUN ["chmod", "+x", "./entrypoint.sh"]
+ENTRYPOINT ["./entrypoint.sh"]

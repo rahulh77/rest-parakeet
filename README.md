@@ -22,3 +22,19 @@ db.people.save({ firstname: "Tom", lastname: "Lalas" })
 db.people.find({})
 db.people.find({ firstname: "Tom"})
 ```
+
+## Running the api in container
+
+```bash
+cd rest-parakeet-api
+docker build -t rest-parakeet-api -f dockerfile.rest-parakeet.yml .
+# Needs Mongodb to be running
+docker run -d -p 8080:8080 --name rest-parakeet-api rest-parakeet-api
+```
+
+```
+mvn clean
+mvn package
+docker-compose up -d --build
+docker-compose down -v
+```
